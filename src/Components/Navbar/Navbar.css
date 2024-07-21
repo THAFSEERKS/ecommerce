@@ -62,3 +62,16 @@
 .nav-login-cart button:active{
     background: rgb(229, 225, 225);
 }
+
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 14px;
+    background-color: red;
+    color: white;
+}
