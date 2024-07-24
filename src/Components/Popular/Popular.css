@@ -1,0 +1,67 @@
+/* src/Components/Popular/Popular.css */
+
+.popular {
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .popular h1 {
+    text-align: center;
+  }
+  
+  .hr-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 20px 0; /* Adjust spacing as needed */
+  }
+  
+  .popular hr {
+    background-color: #171717; /* Set the color of the line */
+    height: 6px; /* Set the height of the line */
+    border: none; /* Remove default border */
+    width: 200px; /* Set the width of the line */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .popular-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    gap: 10px; /* Space between items */
+  }
+  
+  .product-item {
+    padding: 10px;
+    text-align: center;
+    width: calc(20% - 20px); /* Adjust width to fit 5 items in a row with 10px gap */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    max-width: 300px; /* Maximum width for each item */
+  }
+  
+  .product-content {
+    transition: transform 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .product-item:hover .product-content {
+    transform: scale(1.05); /* Scale the entire content to 105% of its original size */
+  }
+  
+  .product-item img {
+    width: 100%; /* Ensure image takes up the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .product-item h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .product-item p {
+    font-size: 1em;
+  }
+  
+  .product-item s {
+    color: #888;
+    margin-left: 10px; /* Add space between new and old price */
+  }
+  
